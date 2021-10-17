@@ -1,0 +1,91 @@
+.hiro-section {
+  padding: 70px;
+  padding-bottom: 90px;
+}
+@media (max-width: 767px) {
+  .hiro-section {
+    padding: 35px 20px;
+  }
+}
+.team-section {
+  background-color: #050605;
+  height: 100vh;
+}
+.team-section .section-title {
+  color: #fff;
+  margin-top: 40px;
+  margin-bottom: 22px;
+}
+.team-section .section-text-light {
+  color: #d3d3d3;
+  margin-bottom: 52px;
+  max-width: 336px;
+}
+.team-section .carousel-control-prev,
+.team-section .carousel-control-next {
+  position: static;
+  display: inline-block;
+}
+.team-section .carousel-control-prev {
+  margin-right: 30px;
+}
+.section-title {
+  font-size: 45px;
+}
+@media (max-width: 767px) {
+  .section-title {
+    font-size: 38px;
+  }
+}
+.section-text-light {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.71;
+  margin-bottom: 36px;
+}
+
+.hiro-team-carousel .carousel-item {
+  padding: 10px;
+}
+
+.hiro-team-carousel .team-card {
+  padding: 40px 0;
+  position: relative;
+}
+.hiro-team-carousel .team-card::before {
+  content: "";
+  display: block;
+  height: 8px;
+  width: 40%;
+  background-image: url("../../assets/images/Team_line.png");
+  background-size: auto 8px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.hiro-team-carousel .team-card .team-member-thumbnail {
+  width: 100%;
+}
+.hiro-team-carousel .team-card .team-member-details {
+  position: absolute;
+  background-color: #050605;
+  padding: 20px 22px;
+  bottom: 0;
+  right: -5px;
+}
+.hiro-team-carousel .team-card .team-member-details .team-member-name {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.13;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.hiro-team-carousel .team-card .team-member-details .team-member-title {
+  font-size: 12px;
+  line-height: 1.5;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.hiro-team-carousel .team-card.featured .team-member-details {
+  background-color: #44d7b6;
+}
